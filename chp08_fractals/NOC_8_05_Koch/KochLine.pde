@@ -48,7 +48,7 @@ class KochLine {
     PVector p = a.get();
     p.add(v);
     
-    rotate(v,-radians(60));
+    rotate(v,-radians(60));   // v.rotae(-radians(60)); ?
     p.add(v);
     
     return p;
