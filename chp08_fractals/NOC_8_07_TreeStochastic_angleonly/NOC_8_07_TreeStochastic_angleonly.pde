@@ -8,11 +8,12 @@
 
 void setup() {
   size(800, 200);
-  newTree();
+  //newTree();
 }
 
 void draw() {
   noLoop();
+  newTree();
 }
 
 void mousePressed() {
