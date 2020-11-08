@@ -8,10 +8,11 @@
 
 void setup() {
   size(640, 360);
-  newTree();
+//newTree();
 }
 
 void draw() {
+  newTree();
   noLoop();
 }
 
