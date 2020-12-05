@@ -79,7 +79,7 @@ void displayInfo() {
   textSize(12);
   text("total generations: " + population.getGenerations(), 20, 140);
   text("average fitness: " + nf(population.getAverageFitness(), 0, 2), 20, 155);
-  text("total populationation: " + popmax, 20, 170);
+  text("total population: " + popmax, 20, 170);
   text("mutation rate: " + int(mutationRate * 100) + "%", 20, 185);
  
   textSize(10);
